@@ -29,7 +29,7 @@ def _initialize_weights(self):
 
 def _initialize_weights(self):
     '''
-    Ex: Squeezenet
+    Ex: Squeezenet.
     '''
 	for m in self.modules():
 		if isinstance(m, nn.Conv2d):
