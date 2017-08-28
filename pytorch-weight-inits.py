@@ -39,3 +39,18 @@ def _initialize_weights(self):
 				init.kaiming_uniform(m.weight.data)
 			if m.bias is not None:
 				m.bias.data.zero_()
+				
+
+def _initialize_weights(self):
+    '''
+    Lasagne Defaults :3
+    '''
+	for m in self.modules():
+		if isinstance(m, nn.Conv2d):
+			init.xavier_uniform(m.weight.data)
+		elif isinstance(m, nn.Linear):
+			init.xavier_uniform(m.weight.data)
+		elif isinstance(m, nn.BatchNorm2d):
+			m.weight.data.fill_(1)
+		if m.bias is not None:
+			m.bias.data.zero_()
