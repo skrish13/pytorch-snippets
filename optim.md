@@ -1,0 +1,2 @@
+- Pass only parameters which you'd want to train lol (requires_grad=True)
+  - Ex: optim.SGD(filter(lambda p: p.requires_grad, net.parameters()), lr=lr, momentum=momentum, weight_decay=weight_decay)
