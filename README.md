@@ -8,3 +8,4 @@ code snippets for few repetitive pytorch functions
 - [Ready to use -> Different weight inits](https://github.com/skrish13/pytorch-snippets/blob/master/pytorch-weight-inits.py)
 - [Partial Fine tuning notes](https://github.com/skrish13/pytorch-snippets/blob/master/par-fine-tuning.md)
 - [Notes on PyTorch memory issues](https://github.com/skrish13/pytorch-snippets/blob/master/pytorch-memory-note.md)
+- [Loading only part of pretrained model](https://github.com/skrish13/pytorch-snippets/blob/master/load_partial_pretrained.py)
